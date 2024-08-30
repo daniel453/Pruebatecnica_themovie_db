@@ -23,8 +23,8 @@ const select = (e: { value: Movie }) => {
 </script>
 
 <template>
-    <header class="bg-gray-900 text-white py-4">
-        <nav class="container mx-auto flex items-center justify-between">
+    <header class="bg-gray-900 text-white p-2 md:py-4">
+        <nav class="container mx-auto flex flex-col md:flex-row gap-2 items-center justify-between">
             <!-- Título de la aplicación -->
             <router-link to="/">
                 <h1 class="text-2xl font-bold">Aplicación de Películas Movie DB</h1>
